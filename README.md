@@ -17,3 +17,6 @@ Statische Website (HTML/CSS/JS) mit Intro, blätterbarem Speisebuch, Reservierun
 - Fotos/Videos: eigene Aufnahmen oder freigegebene Bilder
 
 Vorschau: `index.html` per Doppelklick öffnen (Speisekarte kommt aus `data/menu.js`, erzeugt mit `python3 scripts/build-menu-js.py` aus `data/menu.json`).
+
+## Bilder
+`assets/img/*` sind Referenzfotos des Inhabers (Stil-Vorlage, niedrige Auflösung). Für die öffentliche Seite durch eigene bzw. freigegebene Aufnahmen ersetzen; Rechte der Fotografen klären.
