@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TUSÊ Altes Fährhaus – Restaurant in Hamm</title>
+<meta name="description" content="TUSÊ Altes Fährhaus in Hamm: osmanische Küche, argentinische Steaks vom Holzkohlegrill, Tischreservierung online und Location für Hochzeiten und Feiern.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#14191f">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Cinzel:wght@500;600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- INTRO -->
+<div id="intro" aria-hidden="true">
+  <div class="fog f1"></div><div class="fog f2"></div>
+  <svg class="ship" viewBox="0 0 320 120" role="img" aria-label="Fährschiff">
+    <g fill="none" stroke="#c9a96e" stroke-width="2" stroke-linejoin="round">
+      <path d="M8 92 L312 92 L292 112 L28 112 Z" fill="#c9a96e" fill-opacity=".18"/>
+      <path d="M40 92 V70 H280 V92"/>
+      <path d="M62 70 V50 H258 V70"/>
+      <path d="M100 50 V34 H220 V50"/>
+      <path d="M150 34 V12 H170 V34"/>
+      <path d="M62 50 H258 M40 70 H280" stroke-opacity=".5"/>
+    </g>
+    <g fill="#c9a96e" fill-opacity=".85">
+      <rect x="58" y="76" width="10" height="10"/><rect x="82" y="76" width="10" height="10"/><rect x="106" y="76" width="10" height="10"/>
+      <rect x="130" y="76" width="10" height="10"/><rect x="154" y="76" width="10" height="10"/><rect x="178" y="76" width="10" height="10"/>
+      <rect x="202" y="76" width="10" height="10"/><rect x="226" y="76" width="10" height="10"/><rect x="250" y="76" width="10" height="10"/>
+      <rect x="112" y="40" width="9" height="7"/><rect x="136" y="40" width="9" height="7"/><rect x="175" y="40" width="9" height="7"/><rect x="199" y="40" width="9" height="7"/>
+    </g>
+  </svg>
+  <div class="water"></div>
+  <div class="intro-logo">
+    <img src="assets/logo.png" alt="" width="120" height="120" onerror="this.style.display='none'">
+    <div class="intro-name">TUSÊ</div>
+    <div class="intro-sub">ALTES FÄHRHAUS</div>
+  </div>
+  <button id="skip-intro" type="button">Überspringen</button>
+</div>
+
+<header class="topbar">
+  <a class="brand" href="#top" aria-label="TUSÊ Altes Fährhaus, Startseite">
+    <img src="assets/logo.png" alt="" width="44" height="44">
+    <span>TUSÊ <small>Altes Fährhaus</small></span>
+  </a>
+  <nav aria-label="Hauptmenü">
+    <a href="#speisekarte">Speisekarte</a>
+    <a href="#feiern">Feiern &amp; Hochzeit</a>
+    <a href="#anfahrt">Anfahrt</a>
+    <a class="btn btn-small" href="#reservieren">Reservieren</a>
+  </nav>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="hero">
+    <video class="hero-video" autoplay muted loop playsinline poster="" aria-hidden="true">
+      <source src="assets/hero.mp4" type="video/mp4">
+    </video>
+    <div class="hero-shade"></div>
+    <div class="hero-content">
+      <p class="eyebrow">Osmanische Küche · Argentinische Steaks · Holzkohlegrill</p>
+      <h1>Anker werfen<br>im Alten Fährhaus</h1>
+      <p class="lead">Abendessen im Fachwerk-Ambiente, mitten im Grünen am Wasser. Reservieren Sie Ihren Tisch in wenigen Sekunden.</p>
+      <div class="cta">
+        <a class="btn" href="#reservieren">Tisch reservieren</a>
+        <a class="btn btn-ghost" href="#speisekarte">Speisekarte ansehen</a>
+      </div>
+      <p class="rating" aria-label="Bewertung 4,6 von 5 Sternen bei 473 Google-Bewertungen">
+        <span class="stars" aria-hidden="true">★★★★★</span> 4,6 · 473 Google-Bewertungen
+      </p>
+    </div>
+  </section>
+
+  <!-- RESERVIERUNG -->
+  <section id="reservieren" class="section">
+    <div class="wrap narrow">
+      <h2>Tisch reservieren</h2>
+      <p class="sub">Wählen Sie Datum, Uhrzeit und Personenzahl. Sie erhalten eine Bestätigung per E-Mail.</p>
+      <form id="form-res" class="form" novalidate>
+        <div class="grid">
+          <label>Datum<input type="date" name="date" required></label>
+          <label>Uhrzeit
+            <select name="time" required></select>
+          </label>
+          <label>Personen
+            <select name="guests" required></select>
+          </label>
+        </div>
+        <div class="grid">
+          <label>Name<input type="text" name="name" autocomplete="name" required></label>
+          <label>Telefon<input type="tel" name="phone" autocomplete="tel" required></label>
+        </div>
+        <label>E-Mail<input type="email" name="email" autocomplete="email" required></label>
+        <label>Anmerkung (optional)<textarea name="note" rows="2" placeholder="z. B. Kinderstuhl, Allergien, Anlass"></textarea></label>
+        <label class="check"><input type="checkbox" name="consent" required><span>Ich stimme der Verarbeitung meiner Daten zur Bearbeitung der Reservierung zu (siehe <a href="datenschutz.html">Datenschutz</a>).</span></label>
+        <button class="btn" type="submit">Reservierung anfragen</button>
+        <p class="form-msg" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- SPEISEKARTE -->
+  <section id="speisekarte" class="section dark">
+    <div class="wrap">
+      <h2>Unsere Speisekarte</h2>
+      <p class="sub">Blättern Sie durch das Buch oder wechseln Sie zur Listenansicht.</p>
+      <div class="menu-switch" role="tablist" aria-label="Ansicht wählen">
+        <button role="tab" id="tab-book" aria-selected="true" type="button">Buch</button>
+        <button role="tab" id="tab-list" aria-selected="false" type="button">Liste</button>
+      </div>
+
+      <div id="book-view">
+        <div id="book" class="book" aria-label="Speisekarte als Buch"></div>
+        <div class="book-controls">
+          <button class="btn btn-ghost btn-small" id="prev" type="button" aria-label="Vorherige Seite">←</button>
+          <span id="page-info" aria-live="polite"></span>
+          <button class="btn btn-ghost btn-small" id="next" type="button" aria-label="Nächste Seite">→</button>
+        </div>
+      </div>
+
+      <div id="list-view" hidden>
+        <div id="list-tabs" class="chips" role="tablist" aria-label="Kategorien"></div>
+        <div id="list-body"></div>
+      </div>
+      <p class="fine" id="menu-footer"></p>
+    </div>
+  </section>
+
+  <!-- FEIERN -->
+  <section id="feiern" class="section">
+    <div class="wrap">
+      <h2>Feiern &amp; Hochzeiten</h2>
+      <p class="sub">Ihr Fest im Alten Fährhaus: Saal, Halle und Freie Trauung im Grünen.</p>
+      <div class="cards">
+        <article class="card"><h3>Saal</h3><p>Festlicher Rahmen für Hochzeit, Geburtstag und Firmenfeier mit Menü nach Ihren Wünschen.</p></article>
+        <article class="card"><h3>Halle</h3><p>Viel Platz für große Gesellschaften, individuell gestaltbar.</p></article>
+        <article class="card"><h3>Freie Trauung</h3><p>Das Ja-Wort unter freiem Himmel, umgeben von Grün und Wasser.</p></article>
+      </div>
+      <form id="form-event" class="form narrow-form" novalidate>
+        <h3>Unverbindlich anfragen</h3>
+        <div class="grid">
+          <label>Art der Feier
+            <select name="event_type" required>
+              <option value="">Bitte wählen</option>
+              <option>Hochzeit</option><option>Freie Trauung</option><option>Geburtstag</option>
+              <option>Firmenfeier</option><option>Sonstiges</option>
+            </select>
+          </label>
+          <label>Wunschdatum<input type="date" name="date"></label>
+          <label>Gästezahl<input type="number" name="guests" min="1" max="1000" inputmode="numeric"></label>
+        </div>
+        <div class="grid">
+          <label>Name<input type="text" name="name" autocomplete="name" required></label>
+          <label>Telefon<input type="tel" name="phone" autocomplete="tel"></label>
+        </div>
+        <label>E-Mail<input type="email" name="email" autocomplete="email" required></label>
+        <label>Ihre Nachricht<textarea name="message" rows="3"></textarea></label>
+        <label class="check"><input type="checkbox" name="consent" required><span>Ich stimme der Verarbeitung meiner Daten zur Bearbeitung meiner Anfrage zu (siehe <a href="datenschutz.html">Datenschutz</a>).</span></label>
+        <button class="btn" type="submit">Anfrage senden</button>
+        <p class="form-msg" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ANFAHRT -->
+  <section id="anfahrt" class="section dark">
+    <div class="wrap narrow">
+      <h2>Anfahrt &amp; Öffnungszeiten</h2>
+      <p><strong>TUSÊ Altes Fährhaus</strong><br>Hamm · Anschrift folgt</p>
+      <p>Öffnungszeiten: ab 17:00 Uhr<br><span class="fine">Genaue Zeiten je Wochentag folgen.</span></p>
+      <p class="fine">Rollstuhlgerecht · Hunde erlaubt</p>
+      <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=Tus%C3%AA+Altes+F%C3%A4hrhaus+Hamm" target="_blank" rel="noopener">Route in Google Maps</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>© TUSÊ Altes Fährhaus</p>
+  <p><a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></p>
+  <p class="fine">Demo-Version zur Ansicht. Inhalte und Angaben ohne Gewähr.</p>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="assets/vendor/page-flip.browser.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

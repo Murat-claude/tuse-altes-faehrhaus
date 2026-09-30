@@ -1,0 +1,1796 @@
+{
+ "restaurant": "TUSÊ Altes Fährhaus",
+ "source": "Speisekarte, Stand 6. September 2025 (Instagram-Screenshots)",
+ "footer": [
+  "Alle hier genannten Preise verstehen sich in Euro (€), inklusive gesetzlicher Mehrwertsteuer und Service.",
+  "Für etwaige Anfragen oder individuelle Wünsche steht Ihnen unser Personal gerne zur Verfügung."
+ ],
+ "zusatzstoffe": {
+  "1": "mit Farbstoff",
+  "2": "mit Konservierungsstoff",
+  "3": "mit Antioxidationsmittel",
+  "4": "mit Geschmacksverstärker",
+  "5": "koffeinhaltig",
+  "6": "mit Süßungsmittel",
+  "7": "enthält eine Phenylalaninquelle",
+  "8": "chininhaltig",
+  "9": "Steinobst"
+ },
+ "categories": [
+  {
+   "key": "suppen",
+   "title": "Suppen",
+   "group": "food",
+   "note": null,
+   "items": [
+    {
+     "nr": 1,
+     "name": "Günün Çorbası",
+     "desc": "Tagessuppe",
+     "price": 6.0
+    },
+    {
+     "nr": 2,
+     "name": "Domates Çorbası",
+     "desc": "Tomatencremesuppe mit Sahnehaube",
+     "price": 6.0,
+     "tags": [
+      "vegetarisch"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "kalte-vorspeisen",
+   "title": "Kalte Vorspeisen",
+   "group": "food",
+   "note": "Zu den warmen und kalten Vorspeisen servieren wir ofenfrisches Brot und Frischkäse Dip.",
+   "items": [
+    {
+     "nr": 3,
+     "name": "Cacik",
+     "desc": "Joghurt mit Salatgurke und Knoblauch",
+     "price": 7.0,
+     "tags": [
+      "vegetarisch"
+     ]
+    },
+    {
+     "nr": 4,
+     "name": "Humus",
+     "desc": "Pürierte Kichererbsenpaste",
+     "price": 9.5,
+     "tags": [
+      "vegetarisch"
+     ]
+    },
+    {
+     "nr": 5,
+     "name": "Acem Cacik",
+     "desc": "Joghurtsauce mit frischen Kräutern und Rosinen",
+     "price": 8.5,
+     "tags": [
+      "vegetarisch"
+     ]
+    },
+    {
+     "nr": 6,
+     "name": "Aci Ezme",
+     "desc": "Zerkleinerte Gemüsemischung, pikantscharf",
+     "price": 8.5,
+     "tags": [
+      "vegetarisch"
+     ]
+    },
+    {
+     "nr": 7,
+     "name": "Girit Ezme",
+     "desc": "Cremiger Fetakäse-Aufstrich mit Weichkäse mit Pistazien, Mandeln, Olivenöl und Knoblauch",
+     "price": 8.0,
+     "tags": [
+      "vegetarisch"
+     ]
+    },
+    {
+     "nr": 8,
+     "name": "Mütebbel",
+     "desc": "Auberginenpüree mit Knoblauch, Zitrone und Sesam, begleitet von Walnüssen",
+     "price": 8.9,
+     "tags": [
+      "vegetarisch"
+     ]
+    },
+    {
+     "nr": 9,
+     "name": "Patlicanlı Atom",
+     "desc": "Gebratene Aubergine mit Joghurt und Chilischote",
+     "price": 8.5,
+     "tags": [
+      "vegetarisch"
+     ]
+    },
+    {
+     "nr": 10,
+     "name": "Havuc Trator",
+     "desc": "Geriebene Möhren in Knoblauch-Joghurtsauce",
+     "price": 8.0,
+     "tags": [
+      "vegetarisch"
+     ]
+    },
+    {
+     "nr": 11,
+     "name": "Burrata",
+     "desc": "Tomaten-Avocado-Salat mit Burratakäse",
+     "price": 15.5,
+     "tags": [
+      "vegetarisch"
+     ]
+    },
+    {
+     "nr": 12,
+     "name": "Carpaccio",
+     "desc": "Argentinisches Rinderfilet, hauchdünn geschnitten, gewürzt mit Rucola, Parmesan und Balsamico-Creme",
+     "price": 17.5
+    },
+    {
+     "nr": 13,
+     "name": "Steak Tatar",
+     "desc": "Vom Rind (ca. 100 Gramm) mit Ei",
+     "price": 20.5
+    },
+    {
+     "nr": 14,
+     "name": "Soğuk Somon Roll",
+     "desc": "Kalte Lachsrolle begleitet von Avocado und Masago",
+     "price": 13.5
+    },
+    {
+     "nr": 15,
+     "name": "Soğuk Ahtapot",
+     "desc": "Kalter Oktopus-Salat in Olivenöl und Paprika",
+     "price": 14.5
+    }
+   ]
+  },
+  {
+   "key": "warme-vorspeisen",
+   "title": "Warme Vorspeisen",
+   "group": "food",
+   "note": "Zu den warmen und kalten Vorspeisen servieren wir ofenfrisches Brot und Frischkäse Dip.",
+   "items": [
+    {
+     "nr": 16,
+     "name": "Melanzane",
+     "desc": "Geschichtete Aubergine mit Tomatensauce, frischem Basilikum und Parmesan, im Ofen gratiniert",
+     "price": 9.9,
+     "tags": [
+      "vegetarisch"
+     ]
+    },
+    {
+     "nr": 17,
+     "name": "Güveç Karides",
+     "desc": "Garnelen in zerlassener Butter und mit frischem Knoblauch",
+     "price": 15.5
+    },
+    {
+     "nr": 18,
+     "name": "Popcorn Karides",
+     "desc": "Popcorn-Garnelen mit Ponzu-Sauce, Knoblauchmayonnaise und Sesam",
+     "price": 13.0
+    },
+    {
+     "nr": 19,
+     "name": "Sigara Böreği",
+     "desc": "Blätterteigröllchen mit Schafskäse",
+     "price": 7.5,
+     "tags": [
+      "vegetarisch"
+     ]
+    },
+    {
+     "nr": 20,
+     "name": "Çitir Kalamar",
+     "desc": "Frittierte Tintenfischringe",
+     "price": 10.5
+    },
+    {
+     "nr": 21,
+     "name": "Pastırma Sündürme",
+     "desc": "Gebackener Schafskäse mit getrocknetem Rinderschinken",
+     "price": 13.5
+    },
+    {
+     "nr": 22,
+     "name": "Teriyaki Soslu Bonfile",
+     "desc": "Rinderfilet mit Teriyaki-Sauce",
+     "price": 18.5
+    },
+    {
+     "nr": 23,
+     "name": "Ördek Roll",
+     "desc": "Entenfleisch in hauchdünnem Yufka-Teig und Sojasauce",
+     "price": 14.9
+    },
+    {
+     "nr": 24,
+     "name": "Karişik Kızartma",
+     "desc": "Gebratenes Gemüse begleitet mit Knoblauch-Joghurtsauce",
+     "price": 9.5,
+     "tags": [
+      "vegetarisch"
+     ]
+    },
+    {
+     "nr": 25,
+     "name": "Karişik Meze",
+     "desc": "Gemischte Vorspeisenplatte mit Sigara Böreği",
+     "price": 21.5
+    }
+   ]
+  },
+  {
+   "key": "salate",
+   "title": "Salate",
+   "group": "food",
+   "note": "Dressingauswahl: Granatapfeldressing, Joghurt oder Vinaigrette",
+   "items": [
+    {
+     "nr": 26,
+     "name": "Kerems Salat",
+     "desc": "Salat des Hauses mit Granatapfeldressing, Weichkäse, Sojasprossen, Apfelscheiben mit Lollo Rosso & Lollo Biondo",
+     "price": 17.5,
+     "tags": [
+      "vegetarisch"
+     ]
+    },
+    {
+     "nr": 27,
+     "name": "Caesar Salat",
+     "desc": "Kopfsalat, Tomaten, Hähnchenbruststreifen, Parmesan, Caesar-Dressing, mit Brot serviert",
+     "price": 16.5
+    },
+    {
+     "nr": 28,
+     "name": "Çoban Salatası",
+     "desc": "Bauernsalat – Tomaten-Gurkensalat mit Zwiebeln und Weichkäse",
+     "price": 12.0,
+     "tags": [
+      "vegetarisch"
+     ]
+    },
+    {
+     "nr": 29,
+     "name": "Gemischter Salat",
+     "desc": "Salat, Möhren, Gurken, Tomaten, mit frischer Minze und Dill",
+     "price": 13.5,
+     "addons": [
+      {
+       "label": "mit Hähnchen",
+       "price": 6.5
+      },
+      {
+       "label": "mit Riesengarnelen",
+       "price": 7.9
+      },
+      {
+       "label": "mit Filetstreifen",
+       "price": 8.9
+      }
+     ],
+     "tags": [
+      "vegetarisch"
+     ]
+    },
+    {
+     "nr": 30,
+     "name": "Bowl",
+     "desc": "Blumenkohl, Karotte, gegrillte Paprika, Humus, Buchweizen, Guacamole",
+     "price": 18.5,
+     "tags": [
+      "vegetarisch"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "kindergerichte",
+   "title": "Kindergerichte",
+   "group": "food",
+   "note": null,
+   "items": [
+    {
+     "nr": 31,
+     "name": "Hähnchenschnitzel",
+     "desc": "mit Pommes",
+     "price": 11.9
+    },
+    {
+     "nr": 32,
+     "name": "Nudeln",
+     "desc": "in Tomatensauce",
+     "price": 11.9,
+     "tags": [
+      "vegetarisch"
+     ]
+    },
+    {
+     "nr": 33,
+     "name": "Hähnchennuggets",
+     "desc": "mit Pommes",
+     "price": 11.9
+    }
+   ]
+  },
+  {
+   "key": "steaks",
+   "title": "Argentinische Steaks",
+   "group": "food",
+   "note": "Vom Holzkohlegrill serviert mit Kräuterbutter",
+   "items": [
+    {
+     "nr": 34,
+     "name": "Entrecôte-Rib-Eye-Steak",
+     "desc": null,
+     "weight": "ca. 250g",
+     "price": 29.5
+    },
+    {
+     "nr": 35,
+     "name": "Entrecôte-Rib-Eye-Steak",
+     "desc": null,
+     "weight": "ca. 350g",
+     "price": 36.5
+    },
+    {
+     "nr": 36,
+     "name": "Rumpsteak",
+     "desc": null,
+     "weight": "ca. 200g",
+     "price": 29.0
+    },
+    {
+     "nr": 37,
+     "name": "Rumpsteak",
+     "desc": null,
+     "weight": "ca. 300g",
+     "price": 34.5
+    },
+    {
+     "nr": 38,
+     "name": "Kuzu Kafes",
+     "desc": "Als ganzes Stück – auf Wunsch tranchiert",
+     "weight": "ca. 600g",
+     "price": 38.5
+    },
+    {
+     "nr": 39,
+     "name": "Rinderfilet",
+     "desc": "Auf Wunsch als Lokum – tranchiertes Filet",
+     "weight": "ca. 200g",
+     "price": 33.5
+    },
+    {
+     "nr": 40,
+     "name": "Rinderfilet",
+     "desc": "Auf Wunsch als Lokum – tranchiertes Filet",
+     "weight": "ca. 300g",
+     "price": 42.9
+    },
+    {
+     "nr": 41,
+     "name": "Tomahawk",
+     "desc": "mit Knochen – tranchiert auf einer heißen Platte",
+     "weight": "ca. 1100g",
+     "price": 95.0
+    },
+    {
+     "nr": 42,
+     "name": "Dana Kaburga Rinderrippen",
+     "desc": "Als ganzes Stück, auf Wunsch tranchiert",
+     "weight": "ca. 500g",
+     "price": 39.9
+    }
+   ]
+  },
+  {
+   "key": "beilagen",
+   "title": "Beilagen",
+   "group": "food",
+   "note": null,
+   "items": [
+    {
+     "nr": 43,
+     "name": "Bratkartoffeln",
+     "desc": "mit Zwiebel",
+     "price": 5.5
+    },
+    {
+     "nr": 44,
+     "name": "Geschmorte Pilze",
+     "desc": null,
+     "price": 6.5
+    },
+    {
+     "nr": 45,
+     "name": "Ofenkartoffel",
+     "desc": "mit Sour cream",
+     "price": 6.9
+    },
+    {
+     "nr": 46,
+     "name": "Spinat",
+     "desc": "in Rahmsauce",
+     "price": 4.0
+    },
+    {
+     "nr": 47,
+     "name": "Pommes frites",
+     "desc": null,
+     "price": 4.5
+    },
+    {
+     "nr": 48,
+     "name": "Kartoffelchips",
+     "desc": null,
+     "price": 4.5
+    },
+    {
+     "nr": 49,
+     "name": "Kroketten",
+     "desc": null,
+     "price": 4.9
+    },
+    {
+     "nr": 50,
+     "name": "Gegrilltes Gemüse",
+     "desc": null,
+     "price": 5.9
+    },
+    {
+     "nr": 51,
+     "name": "Kleiner Beilagensalat",
+     "desc": null,
+     "price": 5.9
+    },
+    {
+     "nr": 52,
+     "name": "Pommes",
+     "desc": "mit feinem Trüffelöl und geriebenen Parmesan",
+     "price": 7.9
+    }
+   ]
+  },
+  {
+   "key": "saucen",
+   "title": "Saucen",
+   "group": "food",
+   "note": null,
+   "items": [
+    {
+     "nr": 53,
+     "name": "Pfeffersauce",
+     "desc": null,
+     "price": 4.0
+    },
+    {
+     "nr": 54,
+     "name": "Champignon-Rahmsauce",
+     "desc": null,
+     "price": 4.0
+    },
+    {
+     "nr": 55,
+     "name": "Rotwein-Zwiebelsauce",
+     "desc": null,
+     "price": 4.0
+    },
+    {
+     "nr": 56,
+     "name": "Barbecuesauce",
+     "desc": null,
+     "price": 4.0
+    },
+    {
+     "nr": 57,
+     "name": "Sauce Bernaise",
+     "desc": null,
+     "price": 4.0
+    }
+   ]
+  },
+  {
+   "key": "spezialitaeten",
+   "title": "Tusé-Spezialitäten",
+   "group": "food",
+   "note": null,
+   "items": [
+    {
+     "nr": 58,
+     "name": "Adana Kebap",
+     "desc": "Pikant gewürzter Hackfleischspieß vom Lamm und Rind vom Grill, serviert mit Reis und Cacik",
+     "price": 21.5
+    },
+    {
+     "nr": 59,
+     "name": "Köfte Izgara",
+     "desc": "Gegrillte Hackfleischfrikadellen mit orientalischer Würze, serviert mit Reis und Cacik",
+     "price": 19.9
+    },
+    {
+     "nr": 60,
+     "name": "Çoban Kavurma",
+     "desc": "Zart gebratenes Lammfleisch mit Paprika, Tomaten und Zwiebeln dazu Bulgur – Nach traditioneller Art",
+     "price": 23.5
+    },
+    {
+     "nr": 61,
+     "name": "Hünkar Begendi",
+     "desc": "Lang geschmortes Lamm auf cremigem Auberginenpüree – Der Klassiker in der osmanischen Küche",
+     "price": 24.9
+    },
+    {
+     "nr": 62,
+     "name": "Kuzu Pirzola",
+     "desc": "Gegrillte Lammkoteletts auf mediterrane Art, serviert mit Reis und Cacik",
+     "price": 25.9
+    },
+    {
+     "nr": 63,
+     "name": "Karisik Izgara – Gemischter Grillteller",
+     "desc": "mit Reis oder Pommes und Cacik",
+     "price": 29.5
+    }
+   ]
+  },
+  {
+   "key": "kalb",
+   "title": "Kalbsgerichte",
+   "group": "food",
+   "note": null,
+   "items": [
+    {
+     "nr": 64,
+     "name": "Dana Schnitzel",
+     "desc": "Knusprig paniertes Kalbsschnitzel nach Wiener Art, serviert mit Pommes frites und kleiner Salat",
+     "price": 24.5
+    },
+    {
+     "nr": 65,
+     "name": "Çökertme",
+     "desc": "Geschmorrtes Kalbfleisch in Joghurt-Tomatensauce und Kartoffelstreifen",
+     "price": 24.5
+    }
+   ]
+  },
+  {
+   "key": "haehnchen",
+   "title": "Hähnchengerichte",
+   "group": "food",
+   "note": null,
+   "items": [
+    {
+     "nr": 66,
+     "name": "Tavuk Schnitzel",
+     "desc": "Knusprig paniertes Hähnchenschnitzel nach Wiener Art, serviert mit Pommes frites und kleiner Salat",
+     "price": 20.5
+    },
+    {
+     "nr": 67,
+     "name": "Tavuk Şiş",
+     "desc": "Zart gegrillte Hähnchenspieße, mariniert mit Gewürzen, serviert mit Reis und Cacık",
+     "price": 20.5
+    },
+    {
+     "nr": 68,
+     "name": "Izgara Kanat",
+     "desc": "Hähnchenflügel in würziger Paprikamarinade dazu Bulgur und Cacik",
+     "price": 20.0
+    },
+    {
+     "nr": 69,
+     "name": "Pesto Soslu Tavuk",
+     "desc": "Gebratenes Hähnchen in aromatischer Pesto-Sahnesauce, serviert mit Reis",
+     "price": 21.5
+    },
+    {
+     "nr": 70,
+     "name": "Tavuk Güvec",
+     "desc": "Hähnchen mit frischen Champignons und heller Sahnesauce",
+     "price": 21.5
+    }
+   ]
+  },
+  {
+   "key": "fisch",
+   "title": "Fischgerichte",
+   "group": "food",
+   "note": null,
+   "items": [
+    {
+     "nr": 71,
+     "name": "Levrek Izgara",
+     "desc": "Zart gegrillter Rotbarsch mit Thymian-Tomatensauce und Kartoffelstampf",
+     "price": 24.9
+    },
+    {
+     "nr": 72,
+     "name": "Somon Izgara",
+     "desc": "Gegrilltes Lachsfilet mit Gemüse-Taboulé und Orangen Limetten Sauce",
+     "price": 26.9
+    },
+    {
+     "nr": 73,
+     "name": "Zander Izgara",
+     "desc": "Gegrilltes Zanderfilet mit Penne Pesto und Kräuterpestosauce",
+     "price": 27.9
+    },
+    {
+     "nr": 74,
+     "name": "Cupra Izgara",
+     "desc": "Gegrillte Dorade am Stück vom Holzkohlegrill mit Rucola, Zwiebel und frischen Zitronensaft",
+     "price": 29.9
+    }
+   ]
+  },
+  {
+   "key": "nudeln",
+   "title": "Nudeln",
+   "group": "food",
+   "note": null,
+   "items": [
+    {
+     "nr": 75,
+     "name": "Penne Arrabbiata",
+     "desc": "Tomatensauce, Kirschtomaten, Basilikum und schwarze Oliven",
+     "price": 15.9,
+     "tags": [
+      "vegetarisch"
+     ]
+    },
+    {
+     "nr": 76,
+     "name": "Fettuccine Alfredo",
+     "desc": "Bandnudeln mit Hähnchen, Champignons und frischem Basilikum",
+     "price": 18.9
+    },
+    {
+     "nr": 77,
+     "name": "Ravioli mit Spinatfüllung",
+     "desc": "Spinat-Ricotta-Ravioli in aromatischer Butter mit Parmesan",
+     "price": 18.5,
+     "tags": [
+      "vegetarisch"
+     ]
+    },
+    {
+     "nr": 78,
+     "name": "Reisnudeln",
+     "desc": "mit gebratene Paprika in frischen Knoblauch und Sojasauce",
+     "price": 16.9,
+     "addons": [
+      {
+       "label": "mit gebratene Garnelen",
+       "price": 7.9
+      },
+      {
+       "label": "mit gegrillten Rinderfiletstreifen",
+       "price": 8.9
+      }
+     ],
+     "tags": [
+      "vegetarisch"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "burger",
+   "title": "Burger",
+   "group": "food",
+   "note": null,
+   "items": [
+    {
+     "nr": 79,
+     "name": "Tusé-Burger",
+     "desc": "Rindfleisch, Salat, Cheddar-Sauce, Tomaten, Gewürzgurke mit Pommes oder Chips",
+     "price": 18.5
+    },
+    {
+     "nr": 80,
+     "name": "Cayennepfeffer-Burger",
+     "desc": "Rindfleisch, Buffalo-Sauce, Jalapeños, Cheddar-Sauce, Salat, Tomaten und Pommes oder Chips",
+     "price": 17.5
+    },
+    {
+     "nr": 81,
+     "name": "Hamburg-Burger",
+     "desc": "Rindfleisch, Salat, Tomaten, Gewürzgurken, knusprige Zwiebeln, Barbecue-Sauce, Sriracha-Sauce und Pommes oder Chips",
+     "price": 17.5
+    }
+   ]
+  },
+  {
+   "key": "dessert",
+   "title": "Dessert",
+   "group": "food",
+   "note": "Jede Woche wechselnde Dessertspecials",
+   "items": [
+    {
+     "nr": 82,
+     "name": "Schokoladen Soufle",
+     "desc": "mit Vanilleeis und Beeren",
+     "price": 8.9,
+     "tags": [
+      "vegetarisch"
+     ]
+    },
+    {
+     "nr": 83,
+     "name": "Apfelstrudel",
+     "desc": "mit Vanillesoße und Eis",
+     "price": 7.9,
+     "tags": [
+      "vegetarisch"
+     ]
+    },
+    {
+     "nr": 84,
+     "name": "Baklava",
+     "desc": "mit Eis",
+     "price": 6.9,
+     "tags": [
+      "vegetarisch"
+     ]
+    },
+    {
+     "nr": 85,
+     "name": "Eisdessert",
+     "desc": "mit Sahne je Kugel – Erdbeer, Vanille, Schoko, Stracciatella, Zitrone",
+     "price": 2.0,
+     "tags": [
+      "vegetarisch"
+     ]
+    },
+    {
+     "nr": 86,
+     "name": "Eislatte",
+     "desc": "mit Sirup nach Wahl",
+     "price": 6.5
+    },
+    {
+     "nr": 87,
+     "name": "Eiskaffee",
+     "desc": null,
+     "price": 6.5
+    },
+    {
+     "nr": 88,
+     "name": "Eisschokolade",
+     "desc": null,
+     "price": 6.5
+    }
+   ]
+  },
+  {
+   "key": "softdrinks",
+   "title": "Softdrinks",
+   "group": "drinks",
+   "note": null,
+   "items": [
+    {
+     "nr": 89,
+     "name": "Mineralwasser",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,25 l",
+       "price": 3.2
+      },
+      {
+       "label": "0,75 l",
+       "price": 7.0
+      }
+     ]
+    },
+    {
+     "nr": 90,
+     "name": "Stilles Wasser",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,25 l",
+       "price": 3.2
+      },
+      {
+       "label": "0,75 l",
+       "price": 7.0
+      }
+     ]
+    },
+    {
+     "nr": 91,
+     "name": "Coca-Cola",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,2 l",
+       "price": 3.4
+      },
+      {
+       "label": "0,5 l",
+       "price": 5.3
+      }
+     ]
+    },
+    {
+     "nr": 92,
+     "name": "Coca-Cola Zero",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,2 l",
+       "price": 3.4
+      },
+      {
+       "label": "0,5 l",
+       "price": 5.3
+      }
+     ]
+    },
+    {
+     "nr": 93,
+     "name": "Fanta",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,2 l",
+       "price": 3.4
+      },
+      {
+       "label": "0,5 l",
+       "price": 5.3
+      }
+     ]
+    },
+    {
+     "nr": 94,
+     "name": "Sprite",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,2 l",
+       "price": 3.4
+      },
+      {
+       "label": "0,5 l",
+       "price": 5.3
+      }
+     ]
+    },
+    {
+     "nr": 95,
+     "name": "Mezzo Mix",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,2 l",
+       "price": 3.4
+      },
+      {
+       "label": "0,5 l",
+       "price": 5.3
+      }
+     ]
+    },
+    {
+     "nr": 96,
+     "name": "Vitamalz",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,33 l",
+       "price": 3.9
+      }
+     ]
+    },
+    {
+     "nr": 97,
+     "name": "Ayran",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,25 l",
+       "price": 2.9
+      }
+     ]
+    },
+    {
+     "nr": 98,
+     "name": "Red Bull",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,33 l",
+       "price": 4.5
+      }
+     ]
+    },
+    {
+     "nr": 99,
+     "name": "Ginger Ale",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,2 l",
+       "price": 3.2
+      }
+     ]
+    },
+    {
+     "nr": 100,
+     "name": "Bitter Lemon",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,2 l",
+       "price": 3.2
+      }
+     ]
+    },
+    {
+     "nr": 101,
+     "name": "Tonic Water",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,2 l",
+       "price": 3.2
+      }
+     ]
+    },
+    {
+     "nr": 102,
+     "name": "Eistee Pfirsich / Zitrone",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,33 l",
+       "price": 3.7
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "saefte",
+   "title": "Säfte & Schorlen",
+   "group": "drinks",
+   "note": null,
+   "items": [
+    {
+     "nr": 103,
+     "name": "Maracujasaft",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,2 l",
+       "price": 3.2
+      }
+     ]
+    },
+    {
+     "nr": 104,
+     "name": "Apfelsaft",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,2 l",
+       "price": 3.2
+      }
+     ]
+    },
+    {
+     "nr": 105,
+     "name": "Orangensaft",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,2 l",
+       "price": 3.2
+      }
+     ]
+    },
+    {
+     "nr": 106,
+     "name": "Ananassaft",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,2 l",
+       "price": 3.2
+      }
+     ]
+    },
+    {
+     "nr": 107,
+     "name": "Bananensaft",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,2 l",
+       "price": 3.2
+      }
+     ]
+    },
+    {
+     "nr": 108,
+     "name": "Kirschsaft",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,2 l",
+       "price": 3.2
+      }
+     ]
+    },
+    {
+     "nr": 109,
+     "name": "Granatapfelsaft",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,2 l",
+       "price": 3.2
+      }
+     ]
+    },
+    {
+     "nr": 110,
+     "name": "Şalgam",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,2 l",
+       "price": 2.7
+      }
+     ]
+    },
+    {
+     "nr": 111,
+     "name": "Rhabarberschorle",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,33 l",
+       "price": 3.7
+      }
+     ]
+    },
+    {
+     "nr": 112,
+     "name": "Johannisbeerschorle",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,33 l",
+       "price": 3.7
+      }
+     ]
+    },
+    {
+     "nr": 113,
+     "name": "Apfelschorle",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,33 l",
+       "price": 3.7
+      }
+     ]
+    },
+    {
+     "nr": 114,
+     "name": "Saftschorle",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,3 l",
+       "price": 3.5
+      },
+      {
+       "label": "0,5 l",
+       "price": 5.2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "bier-fass",
+   "title": "Bier vom Fass",
+   "group": "drinks",
+   "note": null,
+   "items": [
+    {
+     "nr": 115,
+     "name": "Veltins",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,3 l",
+       "price": 3.7
+      },
+      {
+       "label": "0,5 l",
+       "price": 4.9
+      }
+     ]
+    },
+    {
+     "nr": 116,
+     "name": "Pott's Landbier",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,3 l",
+       "price": 3.7
+      },
+      {
+       "label": "0,5 l",
+       "price": 4.9
+      }
+     ]
+    },
+    {
+     "nr": 117,
+     "name": "Pott's Weizen",
+     "desc": "alkoholfrei",
+     "variants": [
+      {
+       "label": "0,3 l",
+       "price": 3.7
+      },
+      {
+       "label": "0,5 l",
+       "price": 5.2
+      }
+     ]
+    },
+    {
+     "nr": 118,
+     "name": "Maisel's Weizen",
+     "desc": "hell",
+     "variants": [
+      {
+       "label": "0,3 l",
+       "price": 3.7
+      },
+      {
+       "label": "0,5 l",
+       "price": 5.2
+      }
+     ]
+    },
+    {
+     "nr": 119,
+     "name": "Alsterwasser",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,3 l",
+       "price": 3.7
+      },
+      {
+       "label": "0,5 l",
+       "price": 4.9
+      }
+     ]
+    },
+    {
+     "nr": 120,
+     "name": "Krefelder",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,3 l",
+       "price": 3.7
+      },
+      {
+       "label": "0,5 l",
+       "price": 4.9
+      }
+     ]
+    },
+    {
+     "nr": 121,
+     "name": "Efes Pilsener",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,3 l",
+       "price": 3.7
+      },
+      {
+       "label": "0,5 l",
+       "price": 4.9
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "flaschenbier",
+   "title": "Flaschenbiere",
+   "group": "drinks",
+   "note": null,
+   "items": [
+    {
+     "nr": 122,
+     "name": "Veltins Pils",
+     "desc": "alkoholfrei",
+     "variants": [
+      {
+       "label": "0,33 l",
+       "price": 3.9
+      }
+     ]
+    },
+    {
+     "nr": 123,
+     "name": "Veltins Radler",
+     "desc": "alkoholfrei",
+     "variants": [
+      {
+       "label": "0,33 l",
+       "price": 3.9
+      }
+     ]
+    },
+    {
+     "nr": 124,
+     "name": "Maisel's Weizen",
+     "desc": "alkoholfrei",
+     "variants": [
+      {
+       "label": "0,5 l",
+       "price": 5.2
+      }
+     ]
+    },
+    {
+     "nr": 125,
+     "name": "Maisel's Weizen",
+     "desc": "dunkel",
+     "variants": [
+      {
+       "label": "0,5 l",
+       "price": 5.2
+      }
+     ]
+    },
+    {
+     "nr": 126,
+     "name": "Salitos Ice",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,5 l",
+       "price": 4.2
+      }
+     ]
+    },
+    {
+     "nr": 127,
+     "name": "Salitos Tequila",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,5 l",
+       "price": 4.2
+      }
+     ]
+    },
+    {
+     "nr": 128,
+     "name": "Pott's Landbier",
+     "desc": "alkoholfrei",
+     "variants": [
+      {
+       "label": "0,33 l",
+       "price": 4.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "aperitifs",
+   "title": "Aperitifs",
+   "group": "drinks",
+   "note": null,
+   "items": [
+    {
+     "nr": 129,
+     "name": "Hugo",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,2 l",
+       "price": 8.0
+      }
+     ]
+    },
+    {
+     "nr": 130,
+     "name": "Aperol Spritz",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,2 l",
+       "price": 8.0
+      }
+     ]
+    },
+    {
+     "nr": 131,
+     "name": "Lillet Wildberry",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,2 l",
+       "price": 8.0
+      }
+     ]
+    },
+    {
+     "nr": 132,
+     "name": "Campari Orange",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,2 l",
+       "price": 7.5
+      }
+     ]
+    },
+    {
+     "nr": 133,
+     "name": "Bellini Cipriani",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,2 l",
+       "price": 8.0
+      }
+     ]
+    },
+    {
+     "nr": 134,
+     "name": "Prosecco",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,2 l",
+       "price": 7.0
+      }
+     ]
+    },
+    {
+     "nr": 135,
+     "name": "Weinschorle",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,2 l",
+       "price": 7.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "spirituosen",
+   "title": "Spirituosen",
+   "group": "drinks",
+   "note": null,
+   "items": [
+    {
+     "nr": 136,
+     "name": "Chivas",
+     "desc": null,
+     "variants": [
+      {
+       "label": "2 cl",
+       "price": 4.5
+      }
+     ]
+    },
+    {
+     "nr": 137,
+     "name": "Hennessy",
+     "desc": null,
+     "variants": [
+      {
+       "label": "2 cl",
+       "price": 4.5
+      }
+     ]
+    },
+    {
+     "nr": 138,
+     "name": "Raki",
+     "desc": null,
+     "variants": [
+      {
+       "label": "2 cl",
+       "price": 3.0
+      }
+     ]
+    },
+    {
+     "nr": 139,
+     "name": "Ramazzotti",
+     "desc": null,
+     "variants": [
+      {
+       "label": "2 cl",
+       "price": 3.0
+      }
+     ]
+    },
+    {
+     "nr": 140,
+     "name": "Baileys",
+     "desc": null,
+     "variants": [
+      {
+       "label": "2 cl",
+       "price": 3.0
+      }
+     ]
+    },
+    {
+     "nr": 141,
+     "name": "Sambuca",
+     "desc": null,
+     "variants": [
+      {
+       "label": "2 cl",
+       "price": 3.0
+      }
+     ]
+    },
+    {
+     "nr": 142,
+     "name": "Jack Daniel's",
+     "desc": null,
+     "variants": [
+      {
+       "label": "2 cl",
+       "price": 3.0
+      }
+     ]
+    },
+    {
+     "nr": 143,
+     "name": "Tequila",
+     "desc": null,
+     "variants": [
+      {
+       "label": "2 cl",
+       "price": 3.0
+      }
+     ]
+    },
+    {
+     "nr": 144,
+     "name": "Jägermeister",
+     "desc": null,
+     "variants": [
+      {
+       "label": "2 cl",
+       "price": 3.0
+      }
+     ]
+    },
+    {
+     "nr": 145,
+     "name": "Sasse Lagerkorn",
+     "desc": null,
+     "variants": [
+      {
+       "label": "2 cl",
+       "price": 3.0
+      }
+     ]
+    },
+    {
+     "nr": 146,
+     "name": "Grappa",
+     "desc": null,
+     "variants": [
+      {
+       "label": "2 cl",
+       "price": 3.0
+      }
+     ]
+    },
+    {
+     "nr": 147,
+     "name": "Pflaumen Likör",
+     "desc": null,
+     "variants": [
+      {
+       "label": "2 cl",
+       "price": 3.0
+      }
+     ]
+    },
+    {
+     "nr": 148,
+     "name": "Haselnuss Likör",
+     "desc": null,
+     "variants": [
+      {
+       "label": "2 cl",
+       "price": 3.0
+      }
+     ]
+    },
+    {
+     "nr": 149,
+     "name": "Karamell Wodka",
+     "desc": null,
+     "variants": [
+      {
+       "label": "2 cl",
+       "price": 3.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "warme-getraenke",
+   "title": "Warme Getränke",
+   "group": "drinks",
+   "note": null,
+   "items": [
+    {
+     "nr": 150,
+     "name": "Türkischer Mokka",
+     "desc": null,
+     "price": 3.0
+    },
+    {
+     "nr": 151,
+     "name": "Türkischer Tee",
+     "desc": null,
+     "price": 2.0
+    },
+    {
+     "nr": 152,
+     "name": "Frischer Pfefferminztee",
+     "desc": null,
+     "price": 3.5
+    },
+    {
+     "nr": 153,
+     "name": "Grüner, türkischer Apfeltee",
+     "desc": null,
+     "price": 2.5
+    },
+    {
+     "nr": 154,
+     "name": "Früchtetee",
+     "desc": null,
+     "price": 3.0
+    },
+    {
+     "nr": 155,
+     "name": "Kaffee",
+     "desc": null,
+     "price": 3.2
+    },
+    {
+     "nr": 156,
+     "name": "Entkoffeinierter Kaffee",
+     "desc": null,
+     "price": 3.2
+    },
+    {
+     "nr": 157,
+     "name": "Cappuccino",
+     "desc": null,
+     "price": 3.5
+    },
+    {
+     "nr": 158,
+     "name": "Latte Macchiato",
+     "desc": null,
+     "price": 4.0
+    },
+    {
+     "nr": 159,
+     "name": "Espresso",
+     "desc": null,
+     "price": 3.0
+    },
+    {
+     "nr": 160,
+     "name": "Doppelter Espresso",
+     "desc": null,
+     "price": 4.0
+    },
+    {
+     "nr": 161,
+     "name": "Heiße Schokolade",
+     "desc": null,
+     "price": 3.5
+    }
+   ]
+  },
+  {
+   "key": "cocktails-alkoholfrei",
+   "title": "Cocktails ohne Alkohol",
+   "group": "drinks",
+   "note": "Alle Cocktails ohne Alkohol 7,50 €",
+   "items": [
+    {
+     "nr": 162,
+     "name": "Atakans Ale",
+     "desc": "Frische Limetten mit Rohrzucker, Crushed Eis, Maracuja & Ginger Ale",
+     "price": 7.5
+    },
+    {
+     "nr": 163,
+     "name": "Tusé Coco Kiss",
+     "desc": "Cocossirup, milde Sahne mit Ananas & Maracuja",
+     "price": 7.5
+    },
+    {
+     "nr": 164,
+     "name": "Virgin Beach",
+     "desc": "Zitronensaft mit Orange, Ananas & Grenadine",
+     "price": 7.5
+    },
+    {
+     "nr": 165,
+     "name": "Erdbeer Cocolada",
+     "desc": "Erdbeersirup mit Kokossahne, Orange & Maracuja",
+     "price": 7.5
+    },
+    {
+     "nr": 166,
+     "name": "Driver's Solero",
+     "desc": "Vanillesahne mit Maracuja, Pfirsich, Orange & Ananas",
+     "price": 7.5
+    }
+   ]
+  },
+  {
+   "key": "cocktails-alkohol",
+   "title": "Cocktails mit Alkohol",
+   "group": "drinks",
+   "note": "Alle Cocktails mit Alkohol 9,50 €",
+   "items": [
+    {
+     "nr": 167,
+     "name": "Mojito",
+     "desc": "Crushed Eis, mit Havanna Rum, Minze & Rohrzucker",
+     "price": 9.5
+    },
+    {
+     "nr": 168,
+     "name": "Sex on the Beach",
+     "desc": "Wodka, Orangenlikör mit Grenadine, Orange & Ananas",
+     "price": 9.5
+    },
+    {
+     "nr": 169,
+     "name": "Pina Colada",
+     "desc": "Bacardi & Coco mit Ananas",
+     "price": 9.5
+    },
+    {
+     "nr": 170,
+     "name": "Cuba Libre",
+     "desc": "Frische Limetten mit Havanna Club 3 & Cola",
+     "price": 9.5
+    },
+    {
+     "nr": 171,
+     "name": "Long Island",
+     "desc": "Gin, Wodka, Rum, Tequila, Orangenlikör & Cola",
+     "price": 9.5
+    }
+   ]
+  },
+  {
+   "key": "raki",
+   "title": "Raki",
+   "group": "drinks",
+   "note": null,
+   "items": [
+    {
+     "nr": 200,
+     "name": "Göbek Flasche",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,2 l",
+       "price": 35.0
+      },
+      {
+       "label": "0,35 l",
+       "price": 50.0
+      }
+     ]
+    },
+    {
+     "nr": 201,
+     "name": "Göbek Flasche",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,7 l",
+       "price": 90.0
+      }
+     ]
+    },
+    {
+     "nr": 202,
+     "name": "Göbek Duble",
+     "desc": null,
+     "variants": [
+      {
+       "label": "4 cl",
+       "price": 9.5
+      }
+     ]
+    },
+    {
+     "nr": 203,
+     "name": "Tekirdağ Gold Flasche",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,2 l",
+       "price": 35.0
+      },
+      {
+       "label": "0,35 l",
+       "price": 50.0
+      }
+     ]
+    },
+    {
+     "nr": 204,
+     "name": "Tekirdağ Gold Flasche",
+     "desc": null,
+     "variants": [
+      {
+       "label": "0,7 l",
+       "price": 90.0
+      }
+     ]
+    },
+    {
+     "nr": 205,
+     "name": "Tekirdağ Gold Duble",
+     "desc": null,
+     "variants": [
+      {
+       "label": "4 cl",
+       "price": 9.5
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "tags_verified": false,
+ "tags_note": "Tags (z. B. vegetarisch) sind eine Vorab-Annahme und muessen vom Inhaber bestaetigt werden. Allergene fehlen in der Vorlage."
+}
