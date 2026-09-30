@@ -82,11 +82,13 @@
 
   /* ---------- Speisekarte ---------- */
   var MENU = null;
-  fetch("data/menu.json").then(function (r) { return r.json(); }).then(function (m) {
+  function initMenu(m) {
     MENU = m;
     document.getElementById("menu-footer").textContent = (m.footer || []).join(" ");
     buildList(); buildBook();
-  }).catch(function () {
+  }
+  if (window.TUSE_MENU) initMenu(window.TUSE_MENU);
+  else fetch("data/menu.json").then(function (r) { return r.json(); }).then(initMenu).catch(function () {
     document.getElementById("book").textContent = "Die Speisekarte konnte nicht geladen werden.";
   });
 

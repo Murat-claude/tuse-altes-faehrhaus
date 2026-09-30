@@ -16,4 +16,4 @@ Statische Website (HTML/CSS/JS) mit Intro, blätterbarem Speisebuch, Reservierun
 - Impressum und Datenschutz (Platzhalter)
 - Fotos/Videos: eigene Aufnahmen oder freigegebene Bilder
 
-Vorschau lokal: `python3 -m http.server 8080` im Projektordner.
+Vorschau: `index.html` per Doppelklick öffnen (Speisekarte kommt aus `data/menu.js`, erzeugt mit `python3 scripts/build-menu-js.py` aus `data/menu.json`).
