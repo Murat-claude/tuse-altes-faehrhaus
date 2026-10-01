@@ -77,6 +77,16 @@
     </div>
   </section>
 
+  <!-- SCROLL-FILM: läuft beim Scrollen. Video-Datei: assets/video/reise.mp4 (fehlt sie, wird der Bereich ausgeblendet) -->
+  <section id="reise" class="reise" hidden aria-label="Ein Abend im Alten Fährhaus">
+    <div class="reise-sticky">
+      <video id="reise-video" muted playsinline preload="auto" tabindex="-1" aria-hidden="true"></video>
+      <div class="reise-shade"></div>
+      <div class="reise-text"><p id="reise-line" aria-live="polite"></p><a id="reise-cta" class="btn" href="#reservieren">Tisch reservieren</a></div>
+      <div class="reise-bar"><span id="reise-fill"></span></div>
+    </div>
+  </section>
+
   <!-- DAS HAUS -->
   <section id="haus" class="section">
     <div class="wrap haus">

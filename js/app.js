@@ -28,6 +28,51 @@
     }
   }
 
+
+  /* ---------- Scroll-Film ---------- */
+  (function () {
+    var sec = document.getElementById("reise"), vid = document.getElementById("reise-video");
+    if (!sec || !vid || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    var line = document.getElementById("reise-line"), cta = document.getElementById("reise-cta"), fill = document.getElementById("reise-fill");
+    // Kapitel als Anteil (0..1) des Films
+    var chapters = [
+      [0.00, "Willkommen im Alten Fährhaus"],
+      [0.14, "Fachwerk, Holz und warmes Licht"],
+      [0.30, "Steaks vom Holzkohlegrill"],
+      [0.44, "Osmanische Küche, mit Liebe gemacht"],
+      [0.58, "Meze zum Teilen"],
+      [0.72, "Für Familie, Freunde und große Momente"],
+      [0.88, "Ihr Tisch wartet."]
+    ];
+    var ready = false, dur = 0, target = 0, current = -1, shown = "";
+    vid.src = "assets/video/reise.mp4";
+    vid.addEventListener("loadedmetadata", function () { dur = vid.duration || 0; if (dur > 0) { ready = true; sec.hidden = false; onScroll(); } });
+    vid.addEventListener("error", function () { sec.hidden = true; });
+    setTimeout(function () { if (!ready) sec.hidden = true; }, 6000);
+
+    function progress() {
+      var r = sec.getBoundingClientRect(), total = sec.offsetHeight - window.innerHeight;
+      return total <= 0 ? 0 : Math.min(1, Math.max(0, -r.top / total));
+    }
+    function setLine(p) {
+      var txt = chapters[0][1];
+      for (var i = 0; i < chapters.length; i++) if (p >= chapters[i][0]) txt = chapters[i][1];
+      if (txt !== shown) { shown = txt; line.style.opacity = 0; setTimeout(function () { line.textContent = txt; line.style.opacity = 1; }, 180); }
+      cta.classList.toggle("show", p >= 0.88);
+    }
+    function onScroll() { if (!ready) return; var p = progress(); target = p * dur; fill.style.width = (p * 100) + "%"; setLine(p); }
+    function tick() {
+      if (ready && Math.abs(target - current) > 0.02) {
+        current += (target - current) * 0.18;               // sanftes Nachlaufen
+        if (typeof vid.fastSeek === "function") vid.fastSeek(current); else vid.currentTime = current;
+      }
+      requestAnimationFrame(tick);
+    }
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onScroll);
+    current = 0; requestAnimationFrame(tick);
+  })();
+
   /* ---------- Reservierungsformular: Zeiten & Personen ---------- */
   var timeSel = document.querySelector('#form-res select[name="time"]');
   var guestSel = document.querySelector('#form-res select[name="guests"]');
