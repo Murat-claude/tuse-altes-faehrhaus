@@ -1,0 +1,9 @@
+# Supabase-CLI-Konfiguration (Auszug). Öffentliche Funktionen brauchen kein Login-Token.
+[functions.reserve]
+verify_jwt = false
+
+[functions.cancel]
+verify_jwt = false
+
+[functions.set-status]
+verify_jwt = true

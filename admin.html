@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reservierungen – TUSÊ Altes Fährhaus</title>
+<meta name="robots" content="noindex,nofollow">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .adm{max-width:1100px;margin:0 auto;padding:20px var(--gutter) 80px}
+  .adm h1{font-size:1.8rem;margin:0}
+  .bar{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:18px}
+  .login{max-width:380px;margin:12vh auto;display:grid;gap:12px}
+  .cal-head{display:flex;align-items:center;justify-content:space-between;margin:10px 0}
+  .cal{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
+  .cal .dow{font-size:.75rem;color:var(--muted);text-align:center}
+  .day{background:var(--navy-2);border:1px solid #453a2c;border-radius:6px;min-height:64px;padding:6px;text-align:left;color:var(--cream);cursor:pointer;font:inherit;display:flex;flex-direction:column;gap:2px}
+  .day.empty{visibility:hidden}
+  .day.today{border-color:var(--gold)}
+  .day.sel{background:#3a2d1f;outline:2px solid var(--gold)}
+  .day.closed{opacity:.5;background:repeating-linear-gradient(45deg,#1e1913,#1e1913 6px,#2a231b 6px,#2a231b 12px)}
+  .day .n{font-size:.8rem;color:var(--muted)}
+  .day .c{font-size:.85rem;color:var(--gold-2)}
+  .list{display:grid;gap:10px;margin-top:14px}
+  .res{background:var(--navy-2);border:1px solid #453a2c;border-radius:6px;padding:12px 14px;display:grid;gap:6px}
+  .res .top{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+  .res .t{font-weight:600;color:var(--gold-2)}
+  .badge{font-size:.72rem;border-radius:999px;padding:2px 10px;border:1px solid}
+  .badge.bestaetigt{color:#9fd8a7;border-color:#9fd8a7}.badge.neu{color:#e2c48e;border-color:#e2c48e}.badge.storniert{color:#f0a3a3;border-color:#f0a3a3}
+  .res.storniert{opacity:.55}
+  .acts{display:flex;gap:8px;flex-wrap:wrap}
+  .small{font-size:.85rem;color:var(--muted)}
+  details{margin-top:28px}
+  summary{cursor:pointer;color:var(--gold-2)}
+  .set{display:grid;gap:10px;margin-top:12px;max-width:560px}
+  .hours{display:grid;grid-template-columns:70px 1fr;gap:8px;align-items:center}
+</style>
+</head>
+<body>
+<main class="adm">
+  <section id="login" class="login" hidden>
+    <h1>Reservierungen</h1>
+    <p class="small">Anmeldung für das Restaurant-Team.</p>
+    <label>E-Mail<input id="em" type="email" autocomplete="username"></label>
+    <label>Passwort<input id="pw" type="password" autocomplete="current-password"></label>
+    <button id="do-login" class="btn" type="button">Anmelden</button>
+    <p id="login-msg" class="form-msg err"></p>
+  </section>
+
+  <section id="app" hidden>
+    <div class="bar">
+      <h1>Reservierungen</h1>
+      <div class="acts">
+        <button id="today" class="btn btn-ghost btn-small" type="button">Heute</button>
+        <button id="reload" class="btn btn-ghost btn-small" type="button">Aktualisieren</button>
+        <button id="logout" class="btn btn-ghost btn-small" type="button">Abmelden</button>
+      </div>
+    </div>
+    <div class="cal-head">
+      <button id="prev" class="btn btn-ghost btn-small" type="button" aria-label="Voriger Monat">←</button>
+      <strong id="month"></strong>
+      <button id="next" class="btn btn-ghost btn-small" type="button" aria-label="Nächster Monat">→</button>
+    </div>
+    <div id="cal" class="cal" role="grid"></div>
+
+    <div class="bar" style="margin-top:22px">
+      <h2 id="day-title" style="margin:0"></h2>
+      <div class="acts"><button id="close-day" class="btn btn-ghost btn-small" type="button">Tag sperren</button></div>
+    </div>
+    <p id="day-sum" class="small"></p>
+    <div id="list" class="list"></div>
+    <p id="msg" class="form-msg" role="status"></p>
+
+    <details>
+      <summary>Einstellungen</summary>
+      <div class="set">
+        <label>E-Mail-Adresse des Restaurants (Benachrichtigungen)<input id="s-email" type="email"></label>
+        <div class="grid">
+          <label>Sitzplätze gleichzeitig<input id="s-cap" type="number" min="1"></label>
+          <label>Max. Gruppe (online)<input id="s-party" type="number" min="1"></label>
+          <label>Dauer (Minuten)<input id="s-dur" type="number" min="30" max="360" step="15"></label>
+        </div>
+        <label class="check"><input id="s-auto" type="checkbox"><span>Reservierungen automatisch bestätigen</span></label>
+        <p class="small" style="margin:0">Öffnungszeiten (letzte Reservierungszeit), z. B. <code>17:00-21:30</code> oder zwei Zeiträume <code>12:00-14:00, 17:00-21:30</code>. Leer = geschlossen.</p>
+        <div id="hours"></div>
+        <button id="save" class="btn" type="button">Speichern</button>
+      </div>
+    </details>
+  </section>
+</main>
+
+<script src="js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="js/admin.js"></script>
+</body>
+</html>

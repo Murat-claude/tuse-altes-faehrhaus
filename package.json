@@ -1,0 +1,11 @@
+{
+  "name": "tuse-altes-faehrhaus",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test supabase/functions/_shared/logic.test.mjs && node supabase/tests/db.test.mjs"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.3.0"
+  }
+}

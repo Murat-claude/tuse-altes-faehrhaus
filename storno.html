@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reservierung stornieren – TUSÊ Altes Fährhaus</title><meta name="robots" content="noindex">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main class="section"><div class="wrap narrow" style="text-align:center">
+  <h2 id="t">Reservierung stornieren</h2>
+  <p id="info" class="sub">Einen Moment …</p>
+  <button id="go" class="btn" type="button" hidden>Jetzt stornieren</button>
+  <p><a href="index.html">Zur Startseite</a></p>
+</div></main>
+<script src="js/config.js"></script>
+<script>
+(function () {
+  var C = window.TUSE_CONFIG || {}, token = new URLSearchParams(location.search).get('token') || '';
+  var info = document.getElementById('info'), go = document.getElementById('go'), t = document.getElementById('t');
+  var fmt = function (r) { return new Date(r.date + 'T12:00:00').toLocaleDateString('de-DE', { weekday: 'long', day: '2-digit', month: 'long', year: 'numeric' }) + ', ' + r.time + ' Uhr, ' + r.guests + (r.guests === 1 ? ' Person' : ' Personen'); };
+  var hdr = { 'Content-Type': 'application/json', apikey: C.supabaseAnonKey || '', Authorization: 'Bearer ' + (C.supabaseAnonKey || '') };
+  var url = (C.supabaseUrl || '') + '/functions/v1/cancel';
+  if (!C.supabaseUrl || !token) { info.textContent = 'Dieser Link ist ungültig.'; return; }
+  fetch(url + '?token=' + encodeURIComponent(token), { headers: hdr }).then(function (r) { return r.json(); }).then(function (j) {
+    if (!j.ok) { info.textContent = 'Diese Reservierung wurde nicht gefunden.'; return; }
+    if (j.reservation.status === 'storniert') { t.textContent = 'Bereits storniert'; info.textContent = fmt(j.reservation); return; }
+    info.textContent = fmt(j.reservation); go.hidden = false;
+  }).catch(function () { info.textContent = 'Keine Verbindung. Bitte später erneut versuchen.'; });
+  go.addEventListener('click', function () {
+    go.disabled = true;
+    fetch(url, { method: 'POST', headers: hdr, body: JSON.stringify({ token: token }) }).then(function (r) { return r.json(); }).then(function (j) {
+      if (j.ok) { t.textContent = 'Reservierung storniert'; info.textContent = 'Vielen Dank für Ihre Nachricht. Wir hoffen, Sie bald bei uns zu sehen.'; go.hidden = true; }
+      else { info.textContent = 'Das hat nicht geklappt. Bitte rufen Sie uns an.'; go.disabled = false; }
+    }).catch(function () { info.textContent = 'Keine Verbindung.'; go.disabled = false; });
+  });
+})();
+</script>
+</body>
+</html>
